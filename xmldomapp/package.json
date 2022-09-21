@@ -1,38 +1,70 @@
 {
-  "name": "xmldomapp",
+  "name": "EDPS",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@material-ui/core": "^3.9.4",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^4.11.3",
+    "@mdi/font": "^3.9.97",
+    "animate.css": "^3.7.2",
+    "autosize": "^4.0.2",
+    "axios": "^0.26.0",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.3",
+    "chartjs-plugin-datalabels": "^0.7.0",
+    "core-js": "^3.9.1",
+    "file-saver": "^2.0.5",
+    "html-react-parser": "^0.14.3",
+    "jquery": "^3.6.0",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.5.14",
+    "keycloak-js": "^15.0.2",
+    "lodash": "^4.17.21",
+    "logger": "0.0.1",
+    "material-ui-table-edit": "^3.0.3",
+    "moment": "^2.29.1",
+    "primereact": "^4.2.2",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-confirm-alert": "^2.7.0",
+    "react-csv": "^1.1.2",
+    "react-data-export": "^0.5.0",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.13.1",
+    "react-notifications": "^1.6.0",
+    "react-redux": "^7.2.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-select": "^2.4.4",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-toastify": "^4.5.2",
+    "reactjs-popup": "^1.5.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "simple-react-validator": "^1.5.0",
+    "webpack-jquery-ui": "^2.0.1",
+    "xlsx": "^0.18.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "doc": "jsdoc -c jsdoc.json",
+    "start": "set PORT=3007 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie >= 9"
+  ],
+  "devDependencies": {
+    "jsdoc": "^3.6.10",
+    "react-styleguidist": "^11.2.0"
   }
 }
